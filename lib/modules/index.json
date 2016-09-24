@@ -75,6 +75,716 @@
         "re"
       ]
     }, 
+    "MMA": {
+      "dir": "MMA"
+    }, 
+    "MMA.__init__": {
+      "file": "MMA/__init__.py", 
+      "imports": []
+    }, 
+    "MMA.after": {
+      "file": "MMA/after.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl"
+      ]
+    }, 
+    "MMA.alloc": {
+      "file": "MMA/alloc.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.grooves", 
+        "MMA.patAria", 
+        "MMA.patArpeggio", 
+        "MMA.patBass", 
+        "MMA.patChord", 
+        "MMA.patDrum", 
+        "MMA.patPlectrum", 
+        "MMA.patScale", 
+        "MMA.patSolo", 
+        "MMA.patWalk"
+      ]
+    }, 
+    "MMA.appdirs": {
+      "file": "MMA/appdirs.py", 
+      "imports": [
+        "_winreg", 
+        "array", 
+        "com.sun.jna", 
+        "com.sun.jna.platform.win32", 
+        "ctypes", 
+        "ctypes.windll", 
+        "os", 
+        "platform", 
+        "sys", 
+        "win32api", 
+        "win32com.shell", 
+        "win32com.shell.shell", 
+        "win32com.shell.shellcon", 
+        "winreg"
+      ]
+    }, 
+    "MMA.auto": {
+      "file": "MMA/auto.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.grooves", 
+        "MMA.midi", 
+        "MMA.parse", 
+        "MMA.paths", 
+        "MMA.swing", 
+        "os", 
+        "pickle", 
+        "sys"
+      ]
+    }, 
+    "MMA.chords": {
+      "file": "MMA/chords.py", 
+      "imports": [
+        "MMA.chordtable", 
+        "MMA.common", 
+        "MMA.keysig", 
+        "MMA.roman", 
+        "copy"
+      ]
+    }, 
+    "MMA.chordtable": {
+      "file": "MMA/chordtable.py", 
+      "imports": []
+    }, 
+    "MMA.common": {
+      "file": "MMA/common.py", 
+      "imports": [
+        "MMA.gbl", 
+        "MMA.termsize", 
+        "random", 
+        "sys", 
+        "textwrap"
+      ]
+    }, 
+    "MMA.debug": {
+      "file": "MMA/debug.py", 
+      "imports": [
+        "MMA.macro"
+      ]
+    }, 
+    "MMA.docs": {
+      "file": "MMA/docs.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.grooves", 
+        "MMA.midiC", 
+        "os", 
+        "time"
+      ]
+    }, 
+    "MMA.exits": {
+      "file": "MMA/exits.py", 
+      "imports": [
+        "atexit", 
+        "os"
+      ]
+    }, 
+    "MMA.file": {
+      "file": "MMA/file.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl", 
+        "os", 
+        "sys"
+      ]
+    }, 
+    "MMA.func": {
+      "file": "MMA/func.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.file", 
+        "MMA.gbl", 
+        "MMA.macro", 
+        "copy"
+      ]
+    }, 
+    "MMA.gbl": {
+      "file": "MMA/gbl.py", 
+      "imports": [
+        "__main__.MMAdir", 
+        "__main__.platform"
+      ]
+    }, 
+    "MMA.grooves": {
+      "file": "MMA/grooves.py", 
+      "imports": [
+        "MMA.auto", 
+        "MMA.common", 
+        "MMA.docs", 
+        "MMA.gbl", 
+        "MMA.midi", 
+        "MMA.notelen", 
+        "MMA.parse", 
+        "MMA.parseCL", 
+        "MMA.seqrnd", 
+        "MMA.timesig", 
+        "MMA.volume"
+      ]
+    }, 
+    "MMA.harmony": {
+      "file": "MMA/harmony.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.debug"
+      ]
+    }, 
+    "MMA.keysig": {
+      "file": "MMA/keysig.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl"
+      ]
+    }, 
+    "MMA.lyric": {
+      "file": "MMA/lyric.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.paths"
+      ]
+    }, 
+    "MMA.macro": {
+      "file": "MMA/macro.py", 
+      "imports": [
+        "MMA.chords", 
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.grooves", 
+        "MMA.keysig", 
+        "MMA.lyric", 
+        "MMA.midiC", 
+        "MMA.midinote", 
+        "MMA.notelen", 
+        "MMA.ornament", 
+        "MMA.parse", 
+        "MMA.parseCL", 
+        "MMA.player", 
+        "MMA.regplug", 
+        "MMA.rpitch", 
+        "MMA.safe_eval", 
+        "MMA.seqrnd", 
+        "MMA.swing", 
+        "MMA.timesig", 
+        "MMA.translate", 
+        "MMA.volume", 
+        "random"
+      ]
+    }, 
+    "MMA.main": {
+      "file": "MMA/main.py", 
+      "imports": [
+        "MMA.auto", 
+        "MMA.common", 
+        "MMA.docs", 
+        "MMA.file", 
+        "MMA.gbl", 
+        "MMA.lyric", 
+        "MMA.midi", 
+        "MMA.midifuncs", 
+        "MMA.options", 
+        "MMA.parse", 
+        "MMA.paths", 
+        "MMA.player", 
+        "MMA.tempo", 
+        "os"
+      ]
+    }, 
+    "MMA.mdefine": {
+      "file": "MMA/mdefine.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.midiC", 
+        "MMA.midiM"
+      ]
+    }, 
+    "MMA.midi": {
+      "file": "MMA/midi.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.midiC", 
+        "MMA.midiM", 
+        "MMA.miditables"
+      ]
+    }, 
+    "MMA.midiC": {
+      "file": "MMA/midiC.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.miditables", 
+        "MMA.translate"
+      ]
+    }, 
+    "MMA.midiIn": {
+      "file": "MMA/midiIn.py", 
+      "imports": [
+        "MMA.alloc", 
+        "MMA.common", 
+        "MMA.file", 
+        "MMA.gbl", 
+        "MMA.midiM", 
+        "MMA.readmidi"
+      ]
+    }, 
+    "MMA.midiM": {
+      "file": "MMA/midiM.py", 
+      "imports": [
+        "MMA.common", 
+        "struct", 
+        "sys"
+      ]
+    }, 
+    "MMA.midifuncs": {
+      "file": "MMA/midifuncs.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.mdefine", 
+        "struct"
+      ]
+    }, 
+    "MMA.midinote": {
+      "file": "MMA/midinote.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.keysig", 
+        "MMA.midiC", 
+        "MMA.midiM", 
+        "MMA.notelen"
+      ]
+    }, 
+    "MMA.miditables": {
+      "file": "MMA/miditables.py", 
+      "imports": []
+    }, 
+    "MMA.notelen": {
+      "file": "MMA/notelen.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl"
+      ]
+    }, 
+    "MMA.options": {
+      "file": "MMA/options.py", 
+      "imports": [
+        "MMA.alloc", 
+        "MMA.chords", 
+        "MMA.common", 
+        "MMA.docs", 
+        "MMA.exits", 
+        "MMA.gbl", 
+        "MMA.macro", 
+        "MMA.parse", 
+        "MMA.regplug", 
+        "MMA.volume", 
+        "getopt", 
+        "os", 
+        "sys"
+      ]
+    }, 
+    "MMA.ornament": {
+      "file": "MMA/ornament.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.notelen", 
+        "random"
+      ]
+    }, 
+    "MMA.parse": {
+      "file": "MMA/parse.py", 
+      "imports": [
+        "MMA.after", 
+        "MMA.alloc", 
+        "MMA.auto", 
+        "MMA.chords", 
+        "MMA.common", 
+        "MMA.docs", 
+        "MMA.file", 
+        "MMA.func", 
+        "MMA.gbl", 
+        "MMA.grooves", 
+        "MMA.keysig", 
+        "MMA.lyric", 
+        "MMA.macro", 
+        "MMA.mdefine", 
+        "MMA.midi", 
+        "MMA.midiIn", 
+        "MMA.midifuncs", 
+        "MMA.midinote", 
+        "MMA.notelen", 
+        "MMA.options", 
+        "MMA.ornament", 
+        "MMA.parseCL", 
+        "MMA.patSolo", 
+        "MMA.patch", 
+        "MMA.paths", 
+        "MMA.player", 
+        "MMA.regplug", 
+        "MMA.rpitch", 
+        "MMA.seqrnd", 
+        "MMA.sequence", 
+        "MMA.swing", 
+        "MMA.tempo", 
+        "MMA.timesig", 
+        "MMA.translate", 
+        "MMA.trigger", 
+        "MMA.truncate", 
+        "MMA.tweaks", 
+        "MMA.volume", 
+        "random"
+      ]
+    }, 
+    "MMA.parseCL": {
+      "file": "MMA/parseCL.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.truncate"
+      ]
+    }, 
+    "MMA.pat": {
+      "file": "MMA/pat.py", 
+      "imports": [
+        "MMA.alloc", 
+        "MMA.common", 
+        "MMA.debug", 
+        "MMA.gbl", 
+        "MMA.mdefine", 
+        "MMA.midi", 
+        "MMA.midiC", 
+        "MMA.miditables", 
+        "MMA.notelen", 
+        "MMA.ornament", 
+        "MMA.rpitch", 
+        "MMA.seqrnd", 
+        "MMA.translate", 
+        "MMA.trigger", 
+        "MMA.truncate", 
+        "MMA.volume", 
+        "copy", 
+        "random"
+      ]
+    }, 
+    "MMA.patAria": {
+      "file": "MMA/patAria.py", 
+      "imports": [
+        "MMA.chords", 
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.harmony", 
+        "MMA.keysig", 
+        "MMA.notelen", 
+        "MMA.pat", 
+        "random"
+      ]
+    }, 
+    "MMA.patArpeggio": {
+      "file": "MMA/patArpeggio.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.harmony", 
+        "MMA.notelen", 
+        "MMA.pat", 
+        "random"
+      ]
+    }, 
+    "MMA.patBass": {
+      "file": "MMA/patBass.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.harmony", 
+        "MMA.notelen", 
+        "MMA.ornament", 
+        "MMA.pat"
+      ]
+    }, 
+    "MMA.patChord": {
+      "file": "MMA/patChord.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.notelen", 
+        "MMA.ornament", 
+        "MMA.pat", 
+        "copy", 
+        "random"
+      ]
+    }, 
+    "MMA.patDrum": {
+      "file": "MMA/patDrum.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.notelen", 
+        "MMA.pat", 
+        "MMA.translate"
+      ]
+    }, 
+    "MMA.patPlectrum": {
+      "file": "MMA/patPlectrum.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.notelen", 
+        "MMA.pat", 
+        "copy"
+      ]
+    }, 
+    "MMA.patScale": {
+      "file": "MMA/patScale.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.harmony", 
+        "MMA.notelen", 
+        "MMA.ornament", 
+        "MMA.pat", 
+        "copy", 
+        "random"
+      ]
+    }, 
+    "MMA.patSolo": {
+      "file": "MMA/patSolo.py", 
+      "imports": [
+        "MMA.alloc", 
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.harmony", 
+        "MMA.keysig", 
+        "MMA.notelen", 
+        "MMA.pat", 
+        "MMA.swing", 
+        "MMA.translate", 
+        "MMA.truncate", 
+        "MMA.volume", 
+        "random", 
+        "re"
+      ]
+    }, 
+    "MMA.patWalk": {
+      "file": "MMA/patWalk.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.harmony", 
+        "MMA.notelen", 
+        "MMA.pat", 
+        "random"
+      ]
+    }, 
+    "MMA.patch": {
+      "file": "MMA/patch.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.file", 
+        "MMA.midiC", 
+        "MMA.miditables"
+      ]
+    }, 
+    "MMA.paths": {
+      "file": "MMA/paths.py", 
+      "imports": [
+        "MMA.auto", 
+        "MMA.common", 
+        "MMA.exits", 
+        "MMA.gbl", 
+        "MMA.grooves", 
+        "os"
+      ]
+    }, 
+    "MMA.player": {
+      "file": "MMA/player.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.file", 
+        "MMA.gbl", 
+        "re", 
+        "time"
+      ]
+    }, 
+    "MMA.pluginUtils": {
+      "file": "MMA/pluginUtils.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.macro", 
+        "MMA.termsize", 
+        "collections", 
+        "re", 
+        "sys", 
+        "textwrap", 
+        "traceback"
+      ]
+    }, 
+    "MMA.readmidi": {
+      "file": "MMA/readmidi.py", 
+      "imports": [
+        "sys"
+      ]
+    }, 
+    "MMA.regplug": {
+      "file": "MMA/regplug.py", 
+      "imports": [
+        "MMA.alloc", 
+        "MMA.appdirs", 
+        "MMA.common", 
+        "MMA.parse", 
+        "MMA.paths", 
+        "hashlib", 
+        "importlib", 
+        "json", 
+        "os", 
+        "sys"
+      ]
+    }, 
+    "MMA.roman": {
+      "file": "MMA/roman.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.keysig"
+      ]
+    }, 
+    "MMA.rpitch": {
+      "file": "MMA/rpitch.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.debug", 
+        "MMA.gbl", 
+        "random"
+      ]
+    }, 
+    "MMA.safe_eval": {
+      "file": "MMA/safe_eval.py", 
+      "imports": [
+        "MMA.common", 
+        "math.*", 
+        "os", 
+        "re"
+      ]
+    }, 
+    "MMA.seqrnd": {
+      "file": "MMA/seqrnd.py", 
+      "imports": [
+        "MMA.common", 
+        "random"
+      ]
+    }, 
+    "MMA.sequence": {
+      "file": "MMA/sequence.py", 
+      "imports": [
+        "MMA.alloc", 
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.macro", 
+        "MMA.notelen", 
+        "MMA.pat", 
+        "MMA.seqrnd"
+      ]
+    }, 
+    "MMA.setup": {
+      "file": "MMA/setup.py", 
+      "imports": [
+        "MMA.appdirs", 
+        "os", 
+        "setuptools.setup", 
+        "sys"
+      ]
+    }, 
+    "MMA.swing": {
+      "file": "MMA/swing.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.notelen"
+      ]
+    }, 
+    "MMA.tempo": {
+      "file": "MMA/tempo.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.midi", 
+        "MMA.midiM", 
+        "MMA.parseCL", 
+        "MMA.timesig", 
+        "struct"
+      ]
+    }, 
+    "MMA.termsize": {
+      "file": "MMA/termsize.py", 
+      "imports": [
+        "ctypes.create_string_buffer", 
+        "ctypes.windll", 
+        "fcntl", 
+        "os", 
+        "platform", 
+        "struct", 
+        "sys", 
+        "termios"
+      ]
+    }, 
+    "MMA.timesig": {
+      "file": "MMA/timesig.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.midi"
+      ]
+    }, 
+    "MMA.translate": {
+      "file": "MMA/translate.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.midiC"
+      ]
+    }, 
+    "MMA.trigger": {
+      "file": "MMA/trigger.py", 
+      "imports": [
+        "MMA.common", 
+        "MMA.gbl", 
+        "MMA.truncate", 
+        "copy", 
+        "random"
+      ]
+    }, 
+    "MMA.truncate": {
+      "file": "MMA/truncate.py", 
+      "imports": [
+        "MMA.common"
+      ]
+    }, 
+    "MMA.tweaks": {
+      "file": "MMA/tweaks.py", 
+      "imports": [
+        "MMA.chordtable", 
+        "MMA.common", 
+        "MMA.midiC", 
+        "MMA.pat", 
+        "copy"
+      ]
+    }, 
+    "MMA.volume": {
+      "file": "MMA/volume.py", 
+      "imports": [
+        "MMA.common"
+      ]
+    }, 
     "MimeWriter": {
       "file": "MimeWriter.py", 
       "imports": [

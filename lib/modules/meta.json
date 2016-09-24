@@ -229,6 +229,12 @@
     "cocoasupport.CocoaInteracter": [
       "pyrepl.python_reader"
     ], 
+    "com.sun.jna": [
+      "MMA.appdirs"
+    ], 
+    "com.sun.jna.platform.win32": [
+      "MMA.appdirs"
+    ], 
     "dl.RTLD_NOW": [
       "distutils.tests.setuptools_build_ext"
     ], 
@@ -255,7 +261,8 @@
       "tempfile", 
       "test.test_signal", 
       "test.test_mailbox", 
-      "test.test_io"
+      "test.test_io", 
+      "MMA.termsize"
     ], 
     "fcntl.I_PUSH": [
       "pty"
@@ -400,6 +407,9 @@
     "select.select": [
       "pty"
     ], 
+    "setuptools.setup": [
+      "MMA.setup"
+    ], 
     "sgi": [
       "pty"
     ], 
@@ -490,7 +500,8 @@
     "termios": [
       "getpass", 
       "pyrepl.unix_console", 
-      "pyrepl.fancy_termios"
+      "pyrepl.fancy_termios", 
+      "MMA.termsize"
     ], 
     "termios.*": [
       "tty"
@@ -519,8 +530,20 @@
     "vms_lib": [
       "platform"
     ], 
+    "win32com.shell": [
+      "MMA.appdirs"
+    ], 
+    "win32com.shell.shell": [
+      "MMA.appdirs"
+    ], 
+    "win32com.shell.shellcon": [
+      "MMA.appdirs"
+    ], 
     "win32evtlogutil": [
       "logging.handlers"
+    ], 
+    "winreg": [
+      "MMA.appdirs"
     ], 
     "xx": [
       "distutils.tests.test_build_ext"
